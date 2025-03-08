@@ -28,7 +28,7 @@ public class TomatoSellAll extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         if (!setupEconomy()) {
-            getLogger().severe("未找到Vault经济系统，插件已禁用！");
+            getLogger().severe("未找到Vault或EssentialsX，插件已禁用！");
             getServer().getPluginManager().disablePlugin(this);
             return;
         }
