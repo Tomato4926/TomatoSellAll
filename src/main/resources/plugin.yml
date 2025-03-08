@@ -1,1 +1,9 @@
-
+name: TomatoSellAll
+version: 1.0
+main: com.tomato.tomatosellall.TomatoSellAll
+api-version: 1.20
+depend: [Vault]
+commands:
+  sellall:
+    description: 出售所有背包物品
+    usage: /sellall [yes|no]
