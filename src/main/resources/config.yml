@@ -1,0 +1,15 @@
+settings:
+  price-per-item: 1.0
+
+messages:
+  warning: |
+    &c&l警告：此操作会售出你目前背包内的&f&l所有物品&c&l，包括盔甲栏和副手栏，并按售出物品数量给予&e&l云币&c&l，每个物品&e&l{price} &c&l云币&c&l。
+    &c&l此操作的目的是将商店中不能出售的物品也换为云币，如果你知道你在做什么，请在30秒内输入&a&l/sellall yes&c&l。&4&l本操作不可撤销！
+    &c&l如果你想取消，请输入&4&l/sellall no&c&l。
+  success: |
+    &a&l操作成功！
+    &a&l本次获得：&e&l{amount} 云币&a&l。
+  cancel: "&c&l已取消本次物品出售"
+  timeout: "&c&l操作超时，已取消本次物品出售"
+  no-pending: "&c&l你没有待确认的物品出售操作！"
+  not-player: "&c只有玩家可以使用此命令"
